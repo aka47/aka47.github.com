@@ -62,7 +62,7 @@ li {
   padding: 0;
 }
 
-body, li,  p {
+body, li,  p, pre {
   font-family: "source-serif-pro",sans-serif;
 }
 
@@ -122,3 +122,26 @@ html {
     margin-right: 2.5rem;
   }
 
+img {
+ max-width: 66%
+}
+
+pre {
+  margin-top: 0.25rem;
+  font-size: 0.75rem
+}
+ul.compact li {
+  margin-bottom: 0.5rem;
+}
+
+
+blockquote{
+  font-size: 1.2rem;
+}
+q:before, blockquote:before {
+    padding-right: 0.2rem;
+    content: open-quote;
+}
+q:after, blockquote:after {
+    content: no-close-quote;
+}
